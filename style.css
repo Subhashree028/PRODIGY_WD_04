@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  background-color: #070f2b;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: #151f46;
+  position: fixed;
+  top:0px;
+  width: 100%;
+  z-index: 200;
+  
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 23px;
+  list-style: none;
+}
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+  height: 90vh;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  width: 70px;
+  font-size: 2rem;
+  margin-top: 100px;
+}
+.leftSection p {
+  width: 500px;
+  font-size: 35px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+ul a:hover {
+  color: rgb(107, 107, 188);
+  font-size: 1.02rem;
+}
+.rightSection img {
+  height: 300px;
+  width: 300px;
+  
+  margin-top: 25%;
+  border-radius: 50%;
+  box-shadow: 8px 8px 15px rgb(170, 107, 228);
+}
+span {
+  color: rgb(170, 107, 228);
+}
+.firstSection #info{
+  font-size: 15px;
+  margin-top: 10px;
+}
+hr{
+  border: 0;
+  height: 2px;
+  background-color:  rgb(107, 107, 188);
+  margin:0 50px;
+}
+.Education h3{
+  margin:30px 150px;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  text-align: center;
+
+}
+.Education{
+  height: 90vh;
+  
+}
+.Education .box{
+  height: 2px;
+  background-color: white;
+  width: 1000px;
+  margin: 90px 300px;
+  display:flex;
+  position: relative;
+  
+}
+.Education .vertical{
+  height:200px;
+  width: 1px;
+  background-color: white;
+  margin:0 100px;
+  
+};
+.Skills{
+  position: relative;
+  display: flex;
+ 
+}
+.Skills h3 {
+  margin:30px 150px;
+  padding-top:70px;
+  
+}
+.Skills img{
+  height: 200px;
+  width: 200px;
+  margin-left: 100px;
+  background-color:  rgb(228, 211, 245);
+  padding: 10px;
+  border-radius: 3px;
+ 
+}
+.Skills .box div{
+  display: inline;
+  width: 500px;
+  height: 200px;
+}
+.Skills .box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Skills #javaLang{
+  padding-left: 480px;
+  padding-top: 20px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#landingpage{
+  height: 400px;
+ width: 500px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+  
+}
+#stopwatch{
+  height: 400px;
+ width: 500px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+}
+#tiktactoe{
+  height: 400px;
+ width: 500px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px;
+}
+.contactBox{
+  display: flex;
+  justify-content: center;
+}
+
+.contactBox{
+  height: 450px;
+  width: 500px;
+  border: 2px solid #1a2d77;
+  margin-top: 100px;
+  position: absolute;
+  margin: auto;
+  margin-top: 70px;
+}
+.Contact{
+  display: flex;
+  justify-content: center;
+}
+
+input[type=text], input[type=email]{
+  width: 400px; 
+  padding: 12px 20px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  border: 2px solid #1a2d77;
+}
+textarea{
+  height: 100px;
+  width: 400px;
+  padding: 12px 20px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  border: 2px solid #1a2d77;
+}
+button{
+  padding: 12px 20px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  border: 2px solid #1a2d77;
+  background-color: #04081b;
+  color: aliceblue;
+}
+button:hover{
+  background-color: #1a2d77;
+}
